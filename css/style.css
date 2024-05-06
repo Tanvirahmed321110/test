@@ -1,0 +1,80 @@
+body,
+p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  margin-bottom: 1.2em;
+}
+
+.pt-10 {
+  padding: 10px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 769px) {
+  .container {
+    width: 95%;
+    padding: 0 15px;
+  }
+}
+header .header-area .header-top {
+  background-color: #eb6966;
+}
+header .header-area .header-top .header-top-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+}
+header .header-area .header-top .header-top-inner .mobile-menu {
+  display: none;
+}
+header .header-area .header-top .header-top-inner .address di span {
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+}
+header .header-area .header-top .header-top-inner .address di span i {
+  display: inline-block;
+  margin-right: 8px;
+}
+header .header-area .header-main {
+  padding: 15px 0;
+}
+header .header-area .header-main .header-main-area {
+  display: flex;
+  justify-content: space-between;
+}
+header .header-area .header-main .header-main-area .logo {
+  width: 30%;
+}
+header .header-area .header-main .header-main-area .logo img {
+  width: 152px;
+}
+header .header-area .header-main .header-main-area .main-nav ul li {
+  display: inline-block;
+  margin-left: 16px;
+}
+header .header-area .header-main .header-main-area .main-nav ul li a {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=style.css.map */

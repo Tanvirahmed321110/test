@@ -1,0 +1,63 @@
+// color
+$pColor: #eb6966;
+$sColor: #fbc9c2;
+$bgColor: #f9ebea;
+$whiteColor: #fff;
+$blackColor: #111841;
+
+// Font Weight
+$fw400: 400;
+$fw600: 600;
+$fw700: 700;
+
+
+// Font Size
+$smFont: 14px;
+$paragraphFont: 16px;
+$sectionTitleFont: 25px;
+$headerFont: 30px;
+
+body,
+p{
+    font: {
+        size: 16px;
+        weight: $fw400;
+    }
+}
+
+p{
+    margin-bottom: 15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: $fw600;
+    margin-bottom: 1.2em;
+}
+
+.pt-10{
+    padding: 10px 0;
+}
+
+$phone: 300px;
+$tab: 769px;
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    
+}
+
+
+
+@media only screen and (min-width: #{$phone}) and (max-width: #{$tab}) {
+    .container{
+        width: 95%;
+        padding: 0 15px;
+    }
+}
